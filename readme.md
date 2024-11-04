@@ -40,6 +40,11 @@ Click `Create` to start the services.
 2. Follow the setup wizard to configure Sonarr.
 3. Add qBitTorrent or NZBGet as the download client.
 
+### qBittorrent
+
+1. Open qBittorrent in your browser by going to `http://<NAS_IP>:8181`.
+2. Configure the download folder to `/share/downloads` and the watch folder to `/downloads/watch`.
+
 ## Tips
 
 - While setting up the service make sure to use the docker container name in the host field instead of the IP address.
@@ -50,3 +55,4 @@ new one.
     id -u <username>
     id -g <groupname>
     ```
+- You can use the `docker exec -it <container_name> bash` command to get a shell inside the container.
