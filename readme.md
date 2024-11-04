@@ -29,6 +29,7 @@ Click `Create` to start the services.
 ## Steps
 
 ### Prowlarr
+
 1. Open Prowlarr in your browser by going to `http://<NAS_IP>:9696`.
 2. Follow the setup wizard to configure Prowlarr.
 3. Add indexers and trackers to Prowlarr.
